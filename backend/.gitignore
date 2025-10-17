@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+target/
+*.iml
+*.log
+.idea/
+.classpath
+.project
+.settings/
