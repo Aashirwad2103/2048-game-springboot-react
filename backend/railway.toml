@@ -1,12 +1,9 @@
-# railway.toml
+# backend/railway.toml
 [build]
 builder = "NIXPACKS"
 
-[env]
-PORT = "8080"
-
-[build.args]
-NIXPACKS_PATH = "backend"
-
 [start]
 cmd = "java -jar target/backend-0.0.1-SNAPSHOT.jar"
+
+[env]
+PORT = "8080"
